@@ -27,7 +27,7 @@ const Navbar = () => {
 
 
     return (
-        <div className={`mt-10 text-black bg-white w-[90vw] h-20 rounded-full mx-auto fixed z-1 left-1/2 transform -translate-x-1/2 transition-all duration-500 ease-in-out ${visible ? "top-4 opacity-100" : "-top-20 opacity-0"}`} >
+        <div className={`mt-10 text-black bg-white w-[90vw] h-20 rounded-full mx-auto fixed z-99 left-1/2 transform -translate-x-1/2 transition-all duration-500 ease-in-out ${visible ? "top-4 opacity-100" : "-top-20 opacity-0"}`} >
             <div className='flex justify-between items-center h-20 p-3 font-semibold text-2xl'>
                 <div className='flex gap-10'>
                     <div className='flex justify-center items-center pl-5'>
