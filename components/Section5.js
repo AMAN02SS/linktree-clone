@@ -145,21 +145,21 @@ const Section5 = () => {
         <div className="flex justify-center h-225 w-1/2 flex-col gap-5">
           <div className="bg-[#e9c0e9] w-full px-10 py-10 h-1/2 rounded-4xl flex flex-col items-center">
             <div className="w-auto my-10">
-              <img className="object-contain object-[50%_50%] w-full block" width={"90%"} height={"50%"} src="/Pic/section-6.avif" alt="" />
+              <img className="object-contain object-[50%_50%] w-auto block max-w-150" width={"90%"} height={"50%"} src="/Pic/section-6.avif" alt="" />
             </div>
             <h1 className="font-bold text-3xl">Share every type of content in limitless ways</h1>
           </div>
 
           <div className="bg-[#d2e823] w-full px-10 py-10 h-1/2 rounded-4xl flex flex-col items-center">
             <div className="w-auto pb-10 px-10">
-              <img className="object-contain object-[50%_50%] w-full block" width={"90%"} height={"50%"} src="/Pic/section-6-product.avif" alt="" />
+              <img className="object-contain object-[50%_50%] w-auto block max-w-150" width={"90%"} height={"50%"} src="/Pic/section-6-product.avif" alt="" />
             </div>
             <h1 className="font-bold text-3xl">Sell products, collect payments and make monetization simple</h1>
           </div>
         </div>
         <div className="bg-[#061492] px-10 py-9 flex h-225 w-1/2 flex-col rounded-4xl gap-9">
           <div className="mx-auto block px-10">
-            <img className="object-contain object-[50%_50%] w-full block" src="/Pic/section-6-group.avif" alt="" />
+            <img className="object-contain object-[50%_50%] w-auto max-w-125 h-auto  block" src="/Pic/section-6-group.avif" alt="" />
           </div>
           <h1 className="font-bold text-3xl text-white">Grow, own and engage your audience across all of your channels</h1>
         </div>
