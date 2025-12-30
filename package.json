@@ -11,9 +11,11 @@
   "dependencies": {
     "@rive-app/react-canvas": "^4.25.1",
     "flowbite": "^4.0.1",
+    "mongodb": "^7.0.0",
     "next": "16.1.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

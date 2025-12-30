@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 
 const IMAGE_HEIGHT = 600;
 const INTERVAL = 3000;
@@ -49,6 +50,15 @@ export default function Section1() {
             track.style.transition = `transform ${TRANSITION_DURATION}ms ease-in-out`;
         }
     }, [index, loopCount, images.length]);
+    
+    const [text, setText] = useState("")
+    const router = useRouter()
+    const createTree = (params) => {
+        router.push(`/generate?handle=${text}`)
+
+      
+    }
+    
 
     return (
         <>
@@ -57,7 +67,10 @@ export default function Section1() {
                     <div className="text-black h-full w-1/2 flex flex-col justify-baseline items-center">
                         <h1 className="text-[80px] text-start ml-20 mt-40 text-[#254f1a] text-base/20  tracking-tighter ExtraBold800">A link in bio built for you.</h1>
                         <p className="text-xl text-start ml-20 mt-10 text-[#254f1a] ExtraBold400 ">Join 70M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
-                        <button className="bg-[#254f1a] rounded-full px-17 py-5 mt-10 text-xl font-semibold text-white">Get Start for free</button>
+                        <div className="flex gap-2">
+                            <input value={text} onChange={(e)=>setText(e.target.value)} className="bg-white rounded-lg px-5 py-5 mt-10 text-xl font-semibold" placeholder="linktree/" type="text" />
+                            <button  onClick={()=>{createTree()}} className="bg-[#254f1a] rounded-full px-17 py-5 mt-10 text-xl font-semibold text-white">Get Start for free</button>
+                        </div>
                     </div>
                     <div className="h-full w-1/2 flex justify-center" >
                         <div className="w-150 h-screen overflow-hidden ">
