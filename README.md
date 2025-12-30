@@ -15,21 +15,21 @@ Create one beautiful link to share everything you do — social profiles, websit
 ### 🏠 Landing Page
 Clean and bold landing page inspired by Linktree’s official design.
 
-![Landing Page](/linktree-clone/readme/pic1.png)
+![Landing Page](./linktree-clone/readme/pic1.png)
 
 ---
 
 ### ✨ Create Your Linktree
 Step-by-step interface to claim your handle, add links, images, and descriptions.
 
-![Create Linktree](/linktree-clone/readme/pic2.png)
+![Create Linktree](./linktree-clone/readme/pic2.png)
 
 ---
 
 ### 👤 Public Profile Page
 A shareable public Linktree profile with clickable links and social icons.
 
-![Profile Page](/linktree-clone/readme/pic3.png)
+![Profile Page](./linktree-clone/readme/pic3.png)
 
 ---
 
